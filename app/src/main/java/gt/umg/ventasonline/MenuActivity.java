@@ -119,7 +119,6 @@ public class MenuActivity extends AppCompatActivity
 
                 Intent intent = new Intent(MenuActivity.this,ProductoActivity.class);
                 startActivity(intent);
-                MenuActivity.this.finish();
             }
 
             if(id == R.id.nav_salir){

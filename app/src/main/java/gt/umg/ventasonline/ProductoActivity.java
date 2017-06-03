@@ -24,7 +24,7 @@ public class ProductoActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.content_menu);
+        setContentView(R.layout.activity_producto);
 
         ventasOnlineWs = new VentasOnlineWs();
         listView = (ListView) findViewById(R.id.producto_detalle_list_view);
