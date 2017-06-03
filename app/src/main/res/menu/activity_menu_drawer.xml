@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_accesorios"
+            android:icon="@drawable/gafas_de_sol_128"
+            android:title="Accesorios" />
+        <item
+            android:id="@+id/nav_ropa"
+            android:icon="@drawable/sueter_128"
+            android:title="Ropa" />
+        <item
+            android:id="@+id/nav_deportes"
+            android:icon="@drawable/balon_de_futbol_128"
+            android:title="Deportes" />
+        <item
+            android:id="@+id/nav_tecnologia"
+            android:icon="@drawable/ordenador_128"
+            android:title="Tecnologia" />
+        <item
+            android:id="@+id/nav_salir"
+            android:icon="@drawable/ic_exit"
+            android:title="Salir" />
+    </group>
+
+    <!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+    -->
+
+</menu>
