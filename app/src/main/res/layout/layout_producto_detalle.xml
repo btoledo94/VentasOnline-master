@@ -56,6 +56,12 @@
         android:layout_height="wrap_content"
         android:text="SONY"/>
 
+    <TextView
+        android:id="@+id/layout_producto_detalle_Estado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nuevo"/>
+
     <!--
     <LinearLayout
         android:layout_width="match_parent"

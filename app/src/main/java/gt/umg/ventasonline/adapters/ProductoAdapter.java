@@ -41,10 +41,12 @@ public class ProductoAdapter extends ArrayAdapter<Producto> {
         TextView fechaProducto = (TextView) convertView.findViewById(R.id.layout_producto_detalle_fecha_ingreso);
         TextView marcaProducto = (TextView) convertView.findViewById(R.id.layout_producto_detalle_Marca);
         TextView descripcionProducto = (TextView) convertView.findViewById(R.id.layout_producto_detalle_descripcion);
+        TextView estadoProducto = (TextView) convertView.findViewById(R.id.layout_producto_detalle_Estado);
 
         nombreProducto.setText(producto.getNombreProducto());
         precioProducto.setText("$" + producto.getPrecio());
         fechaProducto.setText(" Fecha Apertura:" + producto.getFechaIngreso());
+        estadoProducto.setText(producto.getEstadoproducto().getDescripcion());
         marcaProducto.setText(producto.getMarca());
         descripcionProducto.setText(producto.getDescripcion());
 

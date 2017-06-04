@@ -30,7 +30,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".RegistroActivity" />
         <activity android:name=".ConfiguracionActivity" />
-        <activity android:name=".ProductoActivity"></activity>
+        <activity android:name=".ProductoActivity" />
+        <activity android:name=".PagoActivity"></activity>
     </application>
 
 </manifest>

@@ -118,6 +118,28 @@ public class MenuActivity extends AppCompatActivity
             if(id == R.id.nav_ropa){
 
                 Intent intent = new Intent(MenuActivity.this,ProductoActivity.class);
+                intent.putExtra("categoriaId",1);
+                startActivity(intent);
+            }
+
+            if(id == R.id.nav_accesorios){
+
+                Intent intent = new Intent(MenuActivity.this,ProductoActivity.class);
+                intent.putExtra("categoriaId",2);
+                startActivity(intent);
+            }
+
+            if(id == R.id.nav_deportes){
+
+                Intent intent = new Intent(MenuActivity.this,ProductoActivity.class);
+                intent.putExtra("categoriaId",3);
+                startActivity(intent);
+            }
+
+            if(id == R.id.nav_tecnologia){
+
+                Intent intent = new Intent(MenuActivity.this,ProductoActivity.class);
+                intent.putExtra("categoriaId",4);
                 startActivity(intent);
             }
 
